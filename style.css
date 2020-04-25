@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 625px;
+    margin: 0;
+
+}
+.progress{
+    background-color: #7f8c8d;
+    border-radius: 20px;
+    height: 50px;
+    width: 500px;
+}
+.progress-done{
+    background:linear-gradient(to left,#f1c40f,#d35400);
+    box-shadow: 0 3px 3px -5px #f1c40f, 0 2px 5px #f1c40f;
+    border-radius: 20px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0;
+    opacity: 0;
+    transition: 1s ease ;
+  
+  
+}
